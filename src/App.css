@@ -1,0 +1,47 @@
+@import '~antd/dist/antd.css';
+
+.main {
+    text-align: center;
+    padding-top: 120px;
+    height: 100%;
+}
+
+.logo {
+    height: 150px;
+    width: 650px;
+}
+
+.search-row {
+    margin-top: 50px;
+}
+
+.search {
+    width: 600px;
+}
+
+.video-detail {
+    margin: 0 100px 100px 100px;
+}
+
+.video-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.video-msg>span {
+    padding: 0 15px;
+}
+
+.video-desc {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 30px;
+}
