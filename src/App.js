@@ -28,7 +28,7 @@ class App extends Component {
             });
             const response = await axios({
                 method: 'get',
-                url: `http://www.jijidown.com/Api/AvToCid/${value}`
+                url: `//www.jijidown.com/Api/AvToCid/${value}`
             });
             if (response.status === 200) {
                 const data = response.data;
@@ -36,7 +36,7 @@ class App extends Component {
                     const requestList = data.list.map(async (item) => {
                         const response = await axios({
                             method: 'post',
-                            url: 'http://www.jijidown.com/ashx/mp3file.ashx',
+                            url: '//www.jijidown.com/ashx/mp3file.ashx',
                             params: {
                                 av: item.AV,
                                 cid: item.CID
